@@ -18,7 +18,7 @@ img {
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: var(--main-color);
+
   background-color: white;
 }
 .link-decor-none {
@@ -35,37 +35,56 @@ body {
 
 /* HEADER */
 
+.header-main {
+  /* padding-top: 51px; */
+}
 .header-nav-container {
   display: flex;
   align-items: center;
+  margin-top: 41px;
+  margin-bottom: 41px;
 }
 .header-nav {
   display: flex;
   align-items: center;
 }
+.header-logo {
+  margin-right: 29px;
+}
 .header-list {
   display: flex;
   align-items: center;
 }
-.header-link {
+.header-font {
   color: #667085;
   font-size: 16px;
+  line-height: 1.2em;
+}
+.header-link:hover,
+.header-link:focus {
+  color: #3f4553;
 }
 .header-menu:not(:last-child) {
   margin-right: 32px;
+}
+.header-button {
+  display: flex;
+  margin-left: auto;
 }
 .header-btn {
   background-color: transparent;
   border: none;
   padding: 10px 18px;
-  color: #667085;
-  font-size: 16px;
-  margin-left: auto;
+
   cursor: pointer;
   border-radius: 8px;
 }
 .header-login {
   margin-right: 12px;
+}
+.header-logoup {
+  background-color: #7f56d9;
+  color: white;
 }
 .header-login:hover,
 .header-login:focus {
@@ -74,6 +93,77 @@ body {
 }
 .header-logoup:hover,
 .header-logoup:focus {
-  background-color: #7f56d9;
+  background-color: #642fd7;
   color: white;
 }
+/* HEADER */
+
+/* MAIN */
+.main-section {
+  display: flex;
+}
+.main-container {
+  position: relative;
+  width: 50%;
+}
+.main-img-horse {
+  position: absolute;
+  left: 330px;
+  transform: rotate(20deg);
+}
+.main-paragraf {
+  font-family: Nunito;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.2em;
+  color: #ff1276;
+  transform: rotate(-10deg);
+  margin-left: 20px;
+  margin-bottom: 32px;
+}
+.main-toy {
+  transform: rotate(-20deg);
+}
+.main-header {
+  font-family: Nunito;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 1.2em;
+  color: #fba628;
+  margin-left: 100px;
+  margin-bottom: 53px;
+}
+.main-prgrf {
+  width: 389px;
+  font-family: Nunito;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2em;
+  color: #959595;
+  margin-bottom: 32px;
+}
+.main-button {
+  padding: 16px 28px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ff1276;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+}
+.main-button:hover,
+.main-button:focus {
+  background-color: #dd0c63;
+}
+.main-img-children {
+  width: 50%;
+  position: relative;
+}
+.main-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* margin-top: auto;
+  margin-left: auto; */
+}
+/* MAIN */

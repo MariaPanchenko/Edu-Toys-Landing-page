@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Nunito:wght@400;500;600;700;900&display=swap"
       rel="stylesheet"
     />
     <link
@@ -16,10 +16,10 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="">
+    <header class="header-main">
       <div class="container header-nav-container">
         <nav class="header-nav">
-          <a href="#">
+          <a class="header-logo" href="index.html">
             <img
               src="./img/af8f54767c21ca3f3d26bca7c768e6bd.jpeg"
               width="90"
@@ -29,32 +29,80 @@
           </a>
           <ul class="header-list">
             <li class="link-decor-none header-menu">
-              <a class="link-decor-none header-link" href="">Home</a>
+              <a
+                class="link-decor-none header-font header-link"
+                href="./index.html"
+                >Home</a
+              >
             </li>
             <li class="link-decor-none header-menu">
-              <a class="link-decor-none header-link" href="">Products</a>
+              <a class="link-decor-none header-font header-link" href="#"
+                >Products</a
+              >
             </li>
             <li class="link-decor-none header-menu">
-              <a class="link-decor-none header-link" href="">Resources</a>
+              <a class="link-decor-none header-font header-link" href="#"
+                >Resources</a
+              >
             </li>
             <li class="link-decor-none header-menu">
-              <a class="link-decor-none header-link" href="">Pricing</a>
-            </li>
-          </ul>
-          <ul class="header-list header-btn">
-            <li class="link-decor-none">
-              <button class="header-btn header-login" type="submit">
-                Log in
-              </button>
-            </li>
-            <li class="link-decor-none">
-              <button class="header-btn header-logoup" type="submit">
-                Sign up
-              </button>
+              <a class="link-decor-none header-font header-link" href="#"
+                >Pricing</a
+              >
             </li>
           </ul>
         </nav>
+        <ul class="header-list header-button">
+          <li class="link-decor-none">
+            <button class="header-btn header-login header-font" type="submit">
+              Log in
+            </button>
+          </li>
+          <li class="link-decor-none">
+            <button class="header-btn header-logoup header-font" type="submit">
+              Sign up
+            </button>
+          </li>
+        </ul>
       </div>
     </header>
+    <main>
+      <div class="container">
+        <section class="main-section">
+          <div class="main-container">
+            <img
+              class="main-img-horse"
+              src="./img/toy-horse.jpeg"
+              width="83"
+              height="85"
+              alt=""
+            />
+            <p class="main-paragraf">Fun to care,</p>
+            <img
+              class="main-toy"
+              src="./img/toy.jpeg"
+              width="80"
+              height="80"
+              alt=""
+            />
+            <h1 class="main-header">Comfy Feel</h1>
+            <p class="main-prgrf">
+              Mauris aliquet enim quis odio lacinia, id viverra elit convallis.
+              Nunc nulla massa elit
+            </p>
+            <button class="main-button" type="submit">SHOP NOW</button>
+          </div>
+          <div class="main-img-children">
+            <img
+              class="main-img"
+              src="./img/children.jpeg"
+              width="793"
+              height="517"
+              alt=""
+            />
+          </div>
+        </section>
+      </div>
+    </main>
   </body>
 </html>
