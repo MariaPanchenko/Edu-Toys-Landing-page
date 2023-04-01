@@ -327,7 +327,11 @@ body {
   background-color: #3f4553;
   max-width: 1440px;
   height: 958px;
-  background-image: url(./img/bacground.jpeg);
+  background-image: linear-gradient(
+      rgba(241, 241, 255, 0.7),
+      rgba(241, 241, 255, 0.7)
+    ),
+    url(./img/bacground.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0 auto;
@@ -338,9 +342,24 @@ body {
   font-size: 20px;
   color: #667085;
 }
-.product-container {
+.product-main-container {
+  display: flex;
+  align-items: flex-end;
 }
-.product-list {
+.product-container {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  /* width: 372px;
+  height: 44px; */
+  border: 1px solid #eaebec;
+  border-radius: 8px;
+  background-color: #f9fafb;
+  padding: 4px 4px;
+  gap: 8px;
+}
+/* .product-list {
   display: flex;
   justify-content: center;
   margin-left: auto;
@@ -351,17 +370,23 @@ body {
   background-color: #f9fafb;
   padding: 4px 4px;
   gap: 8px;
-}
-.product-link {
-  align-items: center;
-  min-width: 116px;
+}*/
+.product-wrapper {
+  /* width: 116px;
   height: 36px;
   border: none;
   border-radius: 6px;
-  padding: 8px 15px;
+  padding: 8px 5px; */
+}
+.product-link {
+  /* width: 116px;
+  height: 36px;
+  border: none; */
+  border-radius: 6px;
+  padding: 8px 5px;
   font-weight: 500;
   font-size: 14px;
-  line-height: 2em;
+  line-height: 1;
   color: #667085;
 }
 /* .product-link:not(:last-child) {
