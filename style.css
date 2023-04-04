@@ -151,6 +151,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   margin-left: 40px;
+  cursor: pointer;
 }
 .main-button:hover,
 .main-button:focus {
@@ -443,3 +444,109 @@ body {
   font-size: 14px;
 }
 /* product */
+
+/* offer */
+.offer {
+  background-image: linear-gradient(
+      rgba(241, 241, 255, 0.7),
+      rgba(241, 241, 255, 0.7)
+    ),
+    url(./img/background2.jpeg);
+  background-color: #3f4553;
+  max-width: 1440px;
+  height: 736px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  padding-top: 57px;
+}
+.offer-container {
+  display: flex;
+}
+.offer-header {
+  font-weight: 700;
+  font-size: 24px;
+  color: #ff1276;
+  margin-bottom: 49px;
+  align-items: center;
+  text-align: center;
+}
+.offer-img-bear {
+  margin-right: 96px;
+}
+.offer-list {
+  padding-top: 33px;
+  padding-left: 109px;
+  padding-right: 39px;
+  padding-bottom: 33px;
+  /* gap: 35px; */
+}
+.offer-link {
+  font-weight: 700;
+  font-size: 24px;
+  margin-left: 19px;
+  cursor: pointer;
+}
+.offer-prgrf {
+  font-weight: 500;
+  font-size: 14px;
+  margin-left: 19px;
+  color: #909090;
+  margin-top: 17px;
+}
+.offer-list-first {
+  background-image: url(./img/img-offer1.jpeg);
+  background-repeat: no-repeat;
+  background-size: 71px;
+  background-position: 19px center;
+
+  border: 1px solid #fba628;
+  border-style: dashed;
+  background-color: #fff8ef;
+
+  margin-bottom: 35px;
+}
+.offer-link-first {
+  color: #fba628;
+}
+.offer-list-second {
+  background-image: url(./img/img-offer2.jpeg);
+  background-repeat: no-repeat;
+  background-size: 71px;
+  background-position: 19px center;
+  border: 1px solid #8988f7;
+  border-style: dashed;
+  background-color: #f6f7ff;
+  margin-bottom: 35px;
+}
+.offer-link-second {
+  color: #8988f7;
+}
+.offer-list-third {
+  background-image: url(./img/img-offer3.jpeg);
+  background-repeat: no-repeat;
+  background-size: 71px;
+  background-position: 19px center;
+  border: 1px solid #16bca9;
+  border-style: dashed;
+  background-color: #f6fefe;
+}
+.offer-link-third {
+  color: #16bca9;
+}
+.offer-img {
+}
+/* offer */
+
+/* footer */
+.footer {
+  background-image: url(./img/bcg-footer.jpeg);
+  background-color: #3f4553;
+  max-width: 1440px;
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  padding-top: 102px;
+}
+/* footer */
