@@ -549,4 +549,36 @@ body {
   margin: 0 auto;
   padding-top: 102px;
 }
+.footer-container {
+  display: flex;
+}
+.footer-list-wrapper {
+  max-width: 640px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: auto;
+  /* margin-top: -100px; */
+}
+.footer-list {
+  width: 192px;
+}
+.footer-list:not(:last-child) {
+  margin-right: 32px;
+  /* display: flex;
+  flex-direction: column; */
+}
+.footer-lists {
+  margin-bottom: 12px;
+}
+.footer-header-list {
+  font-weight: 600;
+  font-size: 14px;
+  color: #98a2b3;
+}
+.footer-link {
+  font-weight: 500;
+  font-size: 16px;
+  color: #667085;
+}
 /* footer */
